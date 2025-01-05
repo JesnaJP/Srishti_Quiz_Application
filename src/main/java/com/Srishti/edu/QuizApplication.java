@@ -12,7 +12,7 @@ public class QuizApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(QuizApplication.class, args);
-        log.info("Started Quiz Application Successfuly");
+        log.info("Started Srishti Quiz Application Successfuly");
 	}
 
 }
