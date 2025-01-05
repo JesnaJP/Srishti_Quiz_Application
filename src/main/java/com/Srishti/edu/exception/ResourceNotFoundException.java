@@ -1,4 +1,4 @@
-package com.Srishti.QuizApplication.exception;
+package com.srishti.edu.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

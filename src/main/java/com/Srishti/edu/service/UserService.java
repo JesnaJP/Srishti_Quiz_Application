@@ -1,9 +1,9 @@
-package com.Srishti.QuizApplication.service;
+package com.srishti.edu.service;
 
 
-import com.Srishti.QuizApplication.dto.Userdto;
-import com.Srishti.QuizApplication.entity.User;
-import com.Srishti.QuizApplication.repository.UserRepository;
+import com.srishti.edu.dto.Userdto;
+import com.srishti.edu.entity.User;
+import com.srishti.edu.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

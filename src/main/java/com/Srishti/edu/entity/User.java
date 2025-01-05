@@ -1,4 +1,4 @@
-package com.Srishti.QuizApplication.entity;
+package com.srishti.edu.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

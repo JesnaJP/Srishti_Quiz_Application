@@ -1,4 +1,4 @@
-package com.Srishti.QuizApplication.dto;
+package com.srishti.edu.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

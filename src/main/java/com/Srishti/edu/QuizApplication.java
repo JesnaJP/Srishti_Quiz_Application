@@ -1,4 +1,4 @@
-package com.Srishti.QuizApplication;
+package com.srishti.edu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
