@@ -14,8 +14,14 @@ import java.util.List;
 @Service
 public class UserService {
     private static final Logger log = LoggerFactory.getLogger(UserService.class);
+    private final UserRepository userRepository;
+
     @Autowired
-    UserRepository userRepository;
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+
     User user = new User();
 
     public void createUser(Userdto userdto) {
@@ -29,7 +35,7 @@ public class UserService {
         user.setAddress(userdto.getAddress());
         user.setSkills(List.of(String.valueOf(userdto.getSkills())));
         user.setGender(userdto.getGender());
-userRepository.save(user);
-log.info("User saved:{}",user);
+        userRepository.save(user);
+        log.info("User saved:{}", user);
     }
 }

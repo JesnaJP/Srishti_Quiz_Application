@@ -16,8 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class UserController {
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
+
+    private final UserService userService;
+
     @Autowired
-    UserService userService;
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @PostMapping("/save")
     public ResponseEntity<String> createUser(@RequestBody Userdto userdto) {
