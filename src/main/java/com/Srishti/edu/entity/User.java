@@ -1,4 +1,4 @@
-package com.srishti.edu.entity;
+package com.Srishti.edu.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

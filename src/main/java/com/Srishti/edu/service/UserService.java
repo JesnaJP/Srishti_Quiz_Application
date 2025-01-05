@@ -1,9 +1,9 @@
-package com.srishti.edu.service;
+package com.Srishti.edu.service;
 
 
-import com.srishti.edu.dto.Userdto;
-import com.srishti.edu.entity.User;
-import com.srishti.edu.repository.UserRepository;
+import com.Srishti.edu.dto.Userdto;
+import com.Srishti.edu.entity.User;
+import com.Srishti.edu.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

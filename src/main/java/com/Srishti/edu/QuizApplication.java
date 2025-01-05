@@ -1,4 +1,4 @@
-package com.srishti.edu;
+package com.Srishti.edu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

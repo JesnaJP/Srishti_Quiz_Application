@@ -1,4 +1,4 @@
-package com.srishti.edu.dto;
+package com.Srishti.edu.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

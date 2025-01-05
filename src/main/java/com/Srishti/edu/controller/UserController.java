@@ -1,8 +1,8 @@
-package com.srishti.edu.controller;
+package com.Srishti.edu.controller;
 
 
-import com.srishti.edu.dto.Userdto;
-import com.srishti.edu.service.UserService;
+import com.Srishti.edu.dto.Userdto;
+import com.Srishti.edu.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

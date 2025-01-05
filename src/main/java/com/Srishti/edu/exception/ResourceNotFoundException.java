@@ -1,4 +1,4 @@
-package com.srishti.edu.exception;
+package com.Srishti.edu.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
