@@ -14,14 +14,8 @@ import java.util.List;
 @Service
 public class UserService {
     private static final Logger log = LoggerFactory.getLogger(UserService.class);
-    private final UserRepository userRepository;
-
     @Autowired
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
-
-
+    UserRepository userRepository;
     User user = new User();
 
     public void createUser(Userdto userdto) {
