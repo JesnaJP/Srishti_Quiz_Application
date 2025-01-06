@@ -14,13 +14,9 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "http://localhost:5173")
 public class UserController {
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
-
-    private final UserService userService;
-
     @Autowired
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
+   UserService userService;
+
 
     @PostMapping("/save")
     public ResponseEntity<String> createUser(@RequestBody Userdto userdto) {
