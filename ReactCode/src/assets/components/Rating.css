@@ -1,0 +1,21 @@
+.star-rating {
+    font-size: 30px;
+    color: gold;
+  }
+  
+  .star {
+    font-size: 30px;
+  }
+  
+  .star.full {
+    color: gold;
+  }
+  
+  .star.half {
+    color: orange;
+  }
+  
+  .star.empty {
+    color: lightgray;
+  }
+  
